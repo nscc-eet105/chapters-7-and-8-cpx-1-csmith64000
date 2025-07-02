@@ -3,7 +3,7 @@ def main():
 
 
     try:
-        user_input = input("Enter the numbers youd like to use for the pattern")
+        user_input = input("Enter the numbers youd like to use for the pattern: ")
 
         with open("pixel_pattern.txt", "w") as file:
             file.write(user_input)
